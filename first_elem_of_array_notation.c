@@ -9,6 +9,8 @@ int main()
     
     int i = 0;
     int j = 3;
+    
+    //4 different notations
     int *p = &arr[0][0] +MAX_COLS*i + j; //p and p2 are same [i][j]
     int *p2 = arr[0] + MAX_COLS*i + j;
     int *p3 = arr + MAX_COLS*i + j; //p3 and p4 are same, diff from others. has only one [](space) accesses array[1] rather than array[0][1]
