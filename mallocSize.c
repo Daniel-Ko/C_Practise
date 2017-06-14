@@ -5,6 +5,7 @@
 /** sizeof(array) will give the total of: (arr.length * blocks taken by data type),
 /*  the latter can be expressed as sizeof(data), for example, int/double/char, etc.
 /*  to find the numElems in the array, divide sizeof(array) by the sizeof(elemInArray)
+*/
 
 int main()
 {
